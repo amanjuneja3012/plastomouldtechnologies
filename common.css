@@ -83,6 +83,9 @@ html,body  {
 		width: 100%;
 		z-index: 9999999999;
 		height: 95px;
+		left:0;
+		box-shadow: 1px 1px 1px black;
+		opacity:0.8;
 	}
 	.footerPadder{
 		background-color: white;

@@ -8,7 +8,7 @@
 		
     }
     .body_image{
-		height: 180vh;
+		height: 1265px;
 		width: 100%;
 		border: 2px;
 		position: relative;
@@ -110,13 +110,15 @@
 		z-index: 1;
 		text-align: left;
 		text-shadow: 4px 4px 8px white;
-		width: 90%;
+		width: 100%;
 		top: 870px;
 		position: absolute;
-		padding: 5%;
 		box-sizing: border-box;
-		line-height:30px;
-		color:#483e3e;
+		line-height: 30px;
+		color: #483e3e;
+		padding-left: 10%;
+		padding-right: 5%;
+		padding-top: 5%;
 	}
 	@font-face {
 			    font-family:roboto;
