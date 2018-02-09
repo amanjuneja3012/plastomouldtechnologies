@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+html,body {
+			    margin:0;
+			    padding:0;
+				background-color:white;
+}
+
+	.container{
+				height: 100vh;
+				width: 100%;
+				border: 1px;
+				display: block;
+		
+	}
+	.header{
+				height: 20vh;
+				width: 100%;
+				border:1px;
+				display: block;
+				position: fixed;
+				overflow: hidden;
+				z-index: 3;
+				background-color:white;
+				margin-top: 0px;
+
+
+		
+	}
+	.h1{
+				height: 7vh;
+				width: 100%;
+				border:1px;
+				background-color: #f2f2f2;
+				font-size: 1.3em;
+			    line-height: 1;
+			    color: black;
+			    text-align:center;
+			    line-height: 45px;
+			    display: block;
+
+
+
+
+
+
+
+	}
+	.menu{
+				width: 100%;
+				height: vh;
+				border:1px ;
+				display: block;
+				overflow: hidden;
+				position: fixed;
+
+
+	}
+	
+	.menu a {
+         
+		        color: #ff0000;
+		        text-align: center;
+		        padding: 14px 16px;
+		        text-decoration: none;
+        }
+
+    .menu a:hover {
+
+		        background:#ff8533;
+		        color: black;
+        }
+	
+	.logo {
+				width: %;
+				height: 13vh;
+				display: inline-block;
+				border: 1px ;
+				vertical-align:top;
+		
+	    	}
+	.image_logo{
+				width:;
+				height: 10vh;
+				align-content: center;
+				margin-top: 10px;
+
+
+
+	}
+
+	.home{
+				width: 7%;
+				height: 13vh;
+				border: 1px;
+				display: inline-block;
+				vertical-align:middle;
+				text-align: center;
+				margin-left: auto;
+		        margin-right: auto;
+		        font-size: 30px;
+		        margin-top: 24px;
+
+		 
+    
+    }
+    .about_us{
+		    	width: 15%;
+		    	height: 13vh;
+		    	border: 1px;
+		      display: inline-block;
+		      vertical-align:middle;
+		      font-size: 30px;
+		      text-align: center;
+		      margin-top: 24px;
+
+
+	}
+	.contact_us{
+				width: 13%;
+		    	height: 13vh;
+		    	border: 1px ;
+		    	display: inline-block;
+		    	vertical-align:top;
+		    	font-size: 30px;
+		        margin-top: 24px;
+ 				text-align: center;
+
+	}
+
+	.footer{
+				height: 5vh;
+				width: 97.8%;
+				border:1px solid #efefef ;
+				display: block;
+				margin-top:px;
+				position:absolute;
+				right: 0;
+			    bottom: 0;
+			    left: 0;
+			    padding: 1rem;
+			    background-color:#efefef;
+			    text-align: center;
+			    overflow: hidden;
+			    position:;
+		
+    }
+    .footer1{
+		    	height: 2.5vh;
+		    	width: 95%;
+		    	font-size: 12px;
+    }
+    .footer2{
+		    	height: 2.5vh;
+		    	width: 95%;
+		    	font-size: 12px;
+    }
+    .body{
+		    	height: vh;
+				width: 80%;
+				border:1px ;
+				display:;
+				position:;
+				padding-left: 130px;
+				padding-right: 130px;
+				padding-top: 100px;
+				
+    }
+    .body_image{
+		    	height: vh;
+				width: 100%;
+				border: 2px;
+				border-color: black;
+				z-index: 0.5
+
+    }
+	
+	.ftr{
+		
+				background-color:white;
+				text-align: center;
+				padding: 1px;;
+		
+	}
+	.plain{
+				height: 20px;
+	}
+	.gradient{
+
+				height: 60px;
+				background: linear-gradient(to right, #0033cc 0%, #00ffff 100%);
+				color: white;
+				font-size: 30px;
+				line-height: 60px;
+				margin: 20px 0px 20px 0px;
+				text-indent: 10px;
+
+
+	}
+	.body_image{
+		    	height: 230vh;
+				width: 100%;
+				border: 2px;
+				position: relative;
+				top: 0;
+				left: 0;
+		
+
+    }
+    @font-face {
+			    font-family:roboto;
+			    src: url(Roboto-Black_1.ttf);
+			}
+	@font-face {
+			    font-family:regular;
+			    src: url(Roboto-Regular_2.ttf);
+			}
+	@font-face {
+			    font-family:condensed_;
+			    src: url(Roboto-Condensed_1.ttf);
+			}
+    .tech{
+			   font-family: regular;
+			   font-size: 16px;
+			   z-index: 1;
+			   text-align: center;
+			   position: absolute;
+			   top: 100px;
+		       right: 120px;
+		       text-shadow: 4px 4px 8px white;
+		       display: inline-block;
+		       left: 80px;
+		       width: 90%;
+		       
+
+			}
+	.bigbluebox{
+				width: 100%;
+				height:180vh;
+				background: radial-gradient(#4da9ff,#004080);
+				position: absolute;
+				top: 240px;
+				left: 0;
+				border-radius: 150px;
+				transform: rotate(-3deg);
+			}
+	.bigredbox{
+				width: 100%;
+				height:180vh;
+				background-color: #ff6600;
+				position: absolute;
+				top: 240px;
+				left: 0;
+				border-radius: 150px;
+				transform: rotate(3deg);
+			}
+	.tech1{
+				font-family: regular;
+			   font-size: 17px;
+			   z-index: 1;
+			   text-align: left;
+			   position: absolute;
+			   top: 300px;
+		       right: 120px;
+		       display: inline-block;
+		       left: 80px;
+		       width: 90%;
+		       color: white;
+		   }
+		   
+	.half1{
+				width: 37%;
+				height:180vh;
+				position: absolute;
+				display: inline-block;
+				z-index: 1;
+				top:2px;
+				right: 640px;
+
+
+		}
+	.half2{
+				width: 39%;
+				height:180vh;
+				position: absolute;
+				
+				display: inline-block;
+				z-index: 1;
+				top: 2px;
+				left: 450px;
+
+		}
+	.tech3{
+				font-family: regular;
+			   font-size: 17px;
+			   z-index: 1;
+			   text-align: left;
+			   position: absolute;
+			   top: 300px;
+		       right: 120px;
+		       display: inline-block;
+		       left: 80px;
+		       width: 90%;
+		       color: white;
+		   }
+
+	.body_image5{
+		    	height: 60vh;
+				width: 50%;
+				border: 2px;
+				border-color: black;
+				z-index: 0.5;
+				position: absolute;
+				top: 1000px;
+				left: 490px;
+	}
+
+    </style>
+	</head>
+<body><div class="container">
+	<div class="header">
+		<div style=" font-size: 18px; " class="h1">Email 
+			<a style="color:#aaabab; text-decoration: none; font-size: 12px; " href="mailto:plastomouldtechnologies@gmail.com">&nbsp;&nbsp;plastomouldtechnologies@gmail.com</a><a style="color:#aaabab;text-decoration: none; font-size: 12px; margin-right: 600px; " href="mailto:www.plastomouldtechnologies.com"> ;www.plastomouldtechnologies.com</a>
+		</div>
+<div class="menu">
+		<div class="logo">
+		<img class="image_logo" src="Plastomould Technologies Final Logo-02.png">
+		</div><div class="home"><a style=" text-decoration: none; color: black; " href="HOME1.html">
+		Home</a>
+		</div>
+		<div class="about_us">
+		<a style=" text-decoration: none; color: black; " href="ABOUT_US1.html">About Us</a>
+		</div>
+		<div class="contact_us">
+			<a  style=" text-decoration: none; color: black; " href=" Contact_us.html">Contact Us</a>
+	</div>
+</div>
+</div>
+	<div class="body">
+	<div class="plain"></div>
+	<div class="gradient">About Us</div>
+	<div class="plain "></div>
+	<div style="position: relative; left: 0; top: 0;overflow: hidden; ">
+			<img class="body_image" src="white-background-5.jpg" />
+			<div class="tech">
+			<span style=" font-family: condensed_; font-weight: bold; font-size: 28px; color: #002b80;word-spacing: 5px; text-align: center; ">Special Value-Added Features of Moulds by Plastomould Technologies</span> 
+			<br/>Our products are characterized by various value-added features in the fields of material of construction,<br/> safety, ergonomics, quality - cost of production - productivity of the end products.
+            </div>
+			<div>
+				<div  class="half1" >
+						<ul class="tech1" >
+						  <li> Back plates of moulds on both halves are surface 
+						  grounded within a tolerance of 0.1-0.15.</li>
+						  <br/>
+						  <li>Each mould half are balanced for lifting with eye bolts independently.</li>
+						  <br/>
+						  <li>All core cylinders to be fixed inside the mould in such a way that they do not interfere with tie bars and the mould can be mounted easily on the machine without removing the hydraulic core cylinders</li>
+						  <br/>
+						  <li>The ejector cylinders have mechanical stoppers so that ejector pins cannot protrude more than 3 to 4 mm from the ribs even when hydraulic cylinder is fully forward. Mechanical removable locks are also provided so that when mould is mounted ejector pins are not damaged. After setting done and for production, this lock can be removed. This is a safety for pins only.</li>
+						  <br/>
+						  <li>Hardened block/pressure pads are provided on mould parting line area at pre-decided points including sliding core Mating area. These blocks also do not alow mould parting line shifting.</li>
+						  <br/>
+						  <li>Mould to be made from p20 /2738 steel only having a hardness of hrc28-38 and all inserts to be from steel 718 or 2738 only with hardness of hrc38 to 40 minimum.</li>
+						  <br/>
+						  <li>Mould seat area will not have flow channels to avoid deep sink marks on the products.Flow is adjusted from the sprue to front legs via seat ribs only</li>
+						  <br/>
+						  <li>The black plates to have slots throughout the length of black plate so that clamp can be mounted anywhere on the machine platen.</li>
+						  <br/>
+						  <li>Material flow system is such that it starts flow in the insert first to the top and then side ways to avoid breakage on the top of the chair. Filling of front legs will be in the last to complete the full chair. This is necessary to avoid gas marks on the handle of chairs.</li>
+					    </ul>
+				</div>
+				<div class="half2">
+						<ul class="tech1" >
+						  <li> All ribs are highly polished with proper radius at the joining areas of ribs to avoid white/stretch marks in the product.</li>
+						  <br/>
+						  <li>Moulds have good hard chrome with proper thickness and with mirror polish shine to give high gloss on the product.</li>
+						  <br/>
+						  <li>Proper venting is provided all along the parting lines and inserts to have proper air escape routes so that no black marks appear on the product.</li>
+						  <br/>
+						  <li>The sprue bush in the mould will of h13 or similar hard steel with HRC of 45 and removable.</li>
+						  <br/>
+						  <li>Vent inserts will be provided on arms for air to escape. They can be easily removed/cleaned.</li>
+						  <br/>
+						  <li>Stripper plates have stoppers to avoid banging with the last plate.</li>
+						  <br/>
+						  <li>Cooling lines of 14 mm size (min) are provided for better cooling.</li>
+						</ul>
+				</div>
+			
+				
+			</div>
+            <div class="bigredbox"></div>
+			<div class="bigbluebox"> </div>
+			<img class="body_image5" src="3.png">
+						
+			</div>
+
+	</div>
+	<footer class="ftr">
+  <p>&#128241; +91-76030 46629 &#9742; 033 46012708 &#9993; plastomouldtechnologies@gmail.com &#127760; www.plastomouldtechnologies.com</p>
+  <p>Front Block, 4th floor, 4B, 34, Ahiripukur Road, Landmark (Peter's Day School), Kolkata- 700019.(India)</p>
+</footer>
+	
+</div>
+
+</body>
+</html>
