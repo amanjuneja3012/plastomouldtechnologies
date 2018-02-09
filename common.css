@@ -1,0 +1,126 @@
+html,body  {
+    margin:0;
+    padding:0;
+	background-color:white;
+}
+
+	.container{
+				height: 100vh;
+				width: 100%;
+				border: 1px;
+				display: block;
+		
+	}
+	.header{
+		height: 120px;
+		width: 100%;
+		display: flex;
+		position: fixed;
+		z-index: 99;
+		background-color: white;
+		box-shadow: 1px 1px 1px lightgrey;
+		flex-direction: column;
+	}
+	.headerWrap{
+		width: 100%;
+		background-color: #f2f2f2;
+		color: #db7578;
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding-left: 10%;
+		min-height: 40px;
+	}
+	.menu{
+		width: 100%;
+		display: flex;
+		padding: 0 10%;
+		box-sizing: border-box;
+		justify-content: space-between;
+		height: 100%;
+	}
+	
+	.menu a{
+		color: #f2f2f2;
+    }
+
+    .menu a:hover{
+		color: black;
+    }
+	
+	.logo{
+		position: relative;
+		width: 35%;
+		height: 100%;
+	}
+	.image_logo{
+		width: 170px;
+		height: 170px;
+		position: absolute;
+		top: -45px;
+	}
+	.footer{
+		height: 5vh;
+		width: 97.8%;
+		border:1px solid #efefef ;
+		display: block;
+		margin-top:px;
+		position:absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		background-color:#efefef;
+		text-align: center;
+		overflow: hidden;
+    }
+    .ftr{
+		background-color: white;
+		text-align: center;
+		padding: 1px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		z-index: 9999999999;
+		height: 95px;
+	}
+	.footerPadder{
+		background-color: white;
+		text-align: center;
+		padding: 1px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		z-index: 9999999999;
+		height: 95px;
+	}
+    .headerLink{
+		width: auto;
+		font-size: 25px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 5%;
+		box-sizing: border-box;
+		background: #fafafa;
+    }
+    .headerLink.selected{
+    	background:#483e3e8f;
+    	color:white;
+    }
+    .headerLink:hover{
+    	background:#483e3e8f;
+    }
+    .headerLink.selected a,.headerLink:hover a{
+    	color:white !important;
+    }
+    .footer1{
+		height: 2.5vh;
+		width: 95%;
+		font-size: 12px;
+    }
+    .footer2{
+		height: 2.5vh;
+		width: 95%;
+		font-size: 12px;
+    }

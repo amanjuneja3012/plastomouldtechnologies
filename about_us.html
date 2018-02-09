@@ -1,163 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href='./common.css' />
 <style>
-
-html,body {
-			    margin:0;
-			    padding:0;
-				background-color:white;
-}
-
-	.container{
-				height: 100vh;
-				width: 100%;
-				border: 1px;
-				display: block;
-		
-	}
-	.header{
-				height: 20vh;
-				width: 100%;
-				border:1px;
-				display: block;
-				position: fixed;
-				overflow: hidden;
-				z-index: 3;
-				background-color:white;
-				margin-top: 0px;
-
-
-		
-	}
-	.h1{
-				height: 7vh;
-				width: 100%;
-				border:1px;
-				background-color: #f2f2f2;
-				font-size: 1.3em;
-			    line-height: 1;
-			    color: black;
-			    text-align:center;
-			    line-height: 45px;
-			    display: block;
-
-
-
-
-
-
-
-	}
-	.menu{
-				width: 100%;
-				height: vh;
-				border:1px ;
-				display: block;
-				overflow: hidden;
-				position: fixed;
-
-
-	}
-	
-	.menu a {
-         
-		        color: #ff0000;
-		        text-align: center;
-		        padding: 14px 16px;
-		        text-decoration: none;
-        }
-
-    .menu a:hover {
-
-		        background:#ff8533;
-		        color: black;
-        }
-	
-	.logo {
-				width: %;
-				height: 13vh;
-				display: inline-block;
-				border: 1px ;
-				vertical-align:top;
-		
-	    	}
-	.image_logo{
-				width:;
-				height: 10vh;
-				align-content: center;
-				margin-top: 10px;
-
-
-
-	}
-
-	.home{
-				width: 7%;
-				height: 13vh;
-				border: 1px;
-				display: inline-block;
-				vertical-align:middle;
-				text-align: center;
-				margin-left: auto;
-		        margin-right: auto;
-		        font-size: 30px;
-		        margin-top: 24px;
-
-		 
-    
-    }
-    .about_us{
-		    	width: 15%;
-		    	height: 13vh;
-		    	border: 1px;
-		      display: inline-block;
-		      vertical-align:middle;
-		      font-size: 30px;
-		      text-align: center;
-		      margin-top: 24px;
-
-
-	}
-	.contact_us{
-				width: 13%;
-		    	height: 13vh;
-		    	border: 1px ;
-		    	display: inline-block;
-		    	vertical-align:top;
-		    	font-size: 30px;
-		        margin-top: 24px;
- 				text-align: center;
-
-	}
-
-	.footer{
-				height: 5vh;
-				width: 97.8%;
-				border:1px solid #efefef ;
-				display: block;
-				margin-top:px;
-				position:absolute;
-				right: 0;
-			    bottom: 0;
-			    left: 0;
-			    padding: 1rem;
-			    background-color:#efefef;
-			    text-align: center;
-			    overflow: hidden;
-			    position:;
-		
-    }
-    .footer1{
-		    	height: 2.5vh;
-		    	width: 95%;
-		    	font-size: 12px;
-    }
-    .footer2{
-		    	height: 2.5vh;
-		    	width: 95%;
-		    	font-size: 12px;
-    }
     .body{
 		    	height: vh;
 				width: 80%;
@@ -322,21 +167,22 @@ html,body {
 	</head>
 <body><div class="container">
 	<div class="header">
-		<div style=" font-size: 18px; " class="h1">Email 
+		<div style=" font-size: 18px; " class="headerWrap">Email 
 			<a style="color:#aaabab; text-decoration: none; font-size: 12px; " href="mailto:plastomouldtechnologies@gmail.com">&nbsp;&nbsp;plastomouldtechnologies@gmail.com</a><a style="color:#aaabab;text-decoration: none; font-size: 12px; margin-right: 600px; " href="mailto:www.plastomouldtechnologies.com"> ;www.plastomouldtechnologies.com</a>
 		</div>
 <div class="menu">
 		<div class="logo">
-		<img class="image_logo" src="Plastomould Technologies Final Logo-02.png">
-		</div><div class="home"><a style=" text-decoration: none; color: black; " href="HOME1.html">
-		Home</a>
+		<img class="image_logo" src="logo.png">
 		</div>
-		<div class="about_us">
-		<a style=" text-decoration: none; color: black; " href="ABOUT_US1.html">About Us</a>
+		<div class="headerLink">
+			<a style=" text-decoration: none; color: black; " href="index.html">Home</a>
 		</div>
-		<div class="contact_us">
-			<a  style=" text-decoration: none; color: black; " href=" Contact_us.html">Contact Us</a>
-	</div>
+		<div class="headerLink selected">
+			<a style=" text-decoration: none; color: black; " href="about_us.html">About Us</a>
+		</div>
+		<div class="headerLink">
+			<a  style=" text-decoration: none; color: black; " href="contact_us.html">Contact Us</a>
+		</div>
 </div>
 </div>
 	<div class="body">
@@ -399,6 +245,7 @@ html,body {
 			</div>
 
 	</div>
+	<div class="footerPadder"></div>
 	<footer class="ftr">
   <p>&#128241; +91-76030 46629 &#9742; 033 46012708 &#9993; plastomouldtechnologies@gmail.com &#127760; www.plastomouldtechnologies.com</p>
   <p>Front Block, 4th floor, 4B, 34, Ahiripukur Road, Landmark (Peter's Day School), Kolkata- 700019.(India)</p>
