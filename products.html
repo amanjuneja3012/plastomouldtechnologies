@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href='./common.css' />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script src='masonry.pkgd.min.js'></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<style>
+	.home{
+				width: 7%;
+				height: 13vh;
+				border: 1px;
+				display: inline-block;
+				vertical-align:middle;
+				text-align: center;
+				margin-left: auto;
+		        margin-right: auto;
+		        font-size: 30px;
+		        margin-top: 24px;
+
+		 
+    
+    }
+    .about_us{
+		    	width: 15%;
+		    	height: 13vh;
+		    	border: 1px;
+			    display: inline-block;
+			    vertical-align:middle;
+			    font-size: 30px;
+			    text-align: center;
+			    margin-top: 24px;
+
+
+	}
+	.contact_us{
+				width: 13%;
+		    	height: 13vh;
+		    	border: 1px ;
+		    	display: inline-block;
+		    	vertical-align:top;
+		    	font-size: 30px;
+				margin-top: 24px;
+				text-align: center;
+
+	}
+
+	.footer{
+				height: 5vh;
+				width: 97.8%;
+				border:1px solid #efefef ;
+				display: block;
+				margin-top:px;
+				position:absolute;
+				right: 0;
+			    bottom: 0;
+			    left: 0;
+			    padding: 1rem;
+			    background-color:#efefef;
+			    text-align: center;
+			    overflow: hidden;
+			    position:;
+		
+    }
+    .footer1{
+		    	height: 2.5vh;
+		    	width: 95%;
+		    	font-size: 12px;
+		    }
+    .footer2{
+		    	height: 2.5vh;
+		    	width: 95%;
+		    	font-size: 12px;
+    }
+    .body{
+		    	height: 110vh;
+				width: 100%;
+				border:1px ;
+				display:;
+				position:;
+				padding-left: 130px;
+				padding-right: 130px;
+				padding-top: 100px;
+
+    }
+    .body_image{
+		    	height: vh;
+				width: 100%;
+				border: 2px;
+				
+
+    }
+
+	.plain{
+				height: 40px;
+				}
+	.gradient{
+
+				height: 10px;
+				text-align: center;
+				color: black;
+				font-size: 25px;
+				line-height: 60px;
+				margin: 20px 0px 20px 0px;
+				text-indent: 10px;
+				font-family:Arial Black;
+
+
+	}
+	.C2{
+				width:100%;
+								display:block;
+			}
+	.furniture{
+				width:100%;
+				
+				display:block;
+				
+	}
+
+	
+
+	.plain2{
+		       height: 40px;
+	}
+
+	.welcome{
+				height: 50px;
+				background: #3385ff;
+				font-size: 20px;
+				color: white;
+				font-size: 25px;
+				line-height: 45px;
+				margin: 20px 0px 20px 0px;
+				text-indent: 10px;
+				text-align: center;
+
+	}
+	
+	.content{
+				height: 100%;
+				width:100%;
+				font-size: 16px;
+				
+				display: block;
+	}
+	.bold{
+		        font-weight: bold;
+	}
+	.red{
+				color: red;
+	}
+	.pp{
+		text-align: center;
+		font-size: 30px;
+		font-family: Impact;
+	}
+	.qq{
+		font-size: 20px;
+		font-family: Impact;
+
+	}
+	.rr{
+		font-size: 18px;
+		font-family: sans-serif;
+
+	}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+   
+}
+
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  }
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+.content{
+	height: 100vh;
+}
+
+
+#masonry{
+    height: 90vh !important;
+}
+</style>
+	</head>
+<body>
+<div class="container">
+	<div class="header" style=" padding-top: 0px; " >
+		<div style=" font-size: 18px; " class="headerWrap">Email 
+			<a style="color:#aaabab; text-decoration: none; font-size: 14px; " href="mailto:plastomouldtechnologies@gmail.com">&nbsp;&nbsp;plastomouldtechnologies@gmail.com</a><a style="color:#aaabab;text-decoration: none; font-size: 14px; margin-right: 600px; " href="mailto:www.plastomouldtechnologies.com"> ;www.plastomouldtechnologies.com</a>
+		</div>
+<div class="menu">
+		<div class="logo">
+		<img class="image_logo" style=" align-self: center; "  src="logo.png">
+		</div>
+		<div class="headerLink" style=" height: 100%; " >
+			<a style=" text-decoration: none; color: black; " href="index.html">Home</a>
+		</div>
+		<div class="headerLink">
+			<a style=" text-decoration: none; color: black; " href="about_us.html">Our Specialities</a>
+		</div>
+		<div class="headerLink selected">
+			<a  style=" text-decoration: none; color: black; " href="products.html">Products</a>
+		</div>
+		<div class="headerLink ">
+			<a  style=" text-decoration: none; color: black; " href="contact_us.html">Contact Us</a>
+		</div>
+</div>
+</div>
+
+<div class="body">
+
+		<div class="plain"></div>
+		<div class="gradient">FURNITURE MOULDS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRATE MOULDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CABINET MOULDS </div>
+		<div class="plain "></div>
+		<div class="C2">
+		<div class="furniture">
+			<P class="pp" style="color: #000080;" >Furniture Moulds</P> 
+
+			<ul class="qq">Product Range :<br />
+
+			<br /><li class="rr">Armless chair (Normal, Premium and also with the option of clip on type back inserts) .</li>
+			<br /><li class="rr">Low back and medium back chair .</li>
+			<br /><li class="rr">High back chair .</li>
+			<br /><li class="rr">Premium chairs </li>
+			<br /><li class="rr">Chairs with gas moulding legs .</li>
+			<br /><li class="rr">Dining table ( Rectangular as well round top with the option of using the same top with straight as well as crossed legs ) </li>
+			<br /><li class="rr">Centre Table ( Single piece , Trolley type with  bottom rake) </li>
+			<br /><li class="rr">Baby chairs ( Normal as well as premium ) </li>
+			<br /><li class="rr">Stools ( 10 “, 12 “ , 18”, 19”, 21” – Plain /premium as well as with Ratton design )</li>
+			</ul>
+			</div>
+			<p class="qq">MOULDS</p>
+	<div id='masonry'>
+    <div class="grid">
+    <div class="grid-sizer"></div>
+      	<div class="grid-item">
+        	<img src="1.jpg">
+      	</div>
+
+      <div class="grid-item">
+        <img src="2.jpg" >
+      </div>
+
+
+      <div class="grid-item">
+        <img src="3.jpg" >
+       </div>
+
+      <div class="grid-item">
+        <img src="4.jpg" >
+      </div>
+
+
+      <div class="grid-item">
+        <img src="5.jpg" >
+       </div>
+
+      <div class="grid-item">
+        <img src="6.jpg" >
+      </div>
+    </div>
+    </div>
+      
+
+
+      
+     	<p class="qq">PRODUCTS</p>
+      <div id='masonry'>
+    		<div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="grid-item">
+        <img src="p00.jpg" >
+      </div>
+      
+
+      <div class="grid-item">
+        <img src="p1.jpg" >
+      </div>
+
+      <div class="grid-item">
+        <img src="p2.png" >
+      </div>
+
+
+      <div class="grid-item">
+        <img src="p3.jpg" >
+      </div>
+  
+	  <div class="grid-item">
+	        <img src="p4.jpg" >
+	  </div>
+  
+	  <div class="grid-item">
+	        <img src="p5.jpg" >
+	  </div>
+  
+	  <div class="grid-item">
+	        <img src="p6.jpg" >
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p7.jpg" >
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p8.jpg">
+	  </div>
+  
+	  <div class="grid-item">
+	        <img src="p9.jpg" >
+	  </div>
+	  
+	  
+	  <div class="grid-item">
+	        <img src="p11.png" >
+	  </div>
+	  
+	  <div class="grid-item">
+	        <img src="p12.jpg" >
+	  </div>
+
+
+	  <div class="grid-item">
+		        <img src="p13.jpg" >
+	  </div>
+
+
+	  <div class="grid-item">
+			   <img src="p14.jpg" >
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p15.jpg" >
+	  </div>
+	  
+	  <div class="grid-item">
+	        <img src="p25.jpg" >
+	      
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p55.png" >
+	      
+	  </div>
+	  
+	  <div class="grid-item">
+	        <img src="p77.jpg" >
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p88.jpg">
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p99.jpg" >
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="p155.jpg" >
+	  </div>
+	    
+
+	  <div class="grid-item">
+	        <img src="p777.jpg" >
+	      
+	  </div>
+	  
+	  <div class="grid-item">
+	        <img src="p787.jpg" >
+	      
+	  </div>
+	 
+	  <div class="grid-item">
+	        <img src="pdd.jpg" >
+	     
+	  </div>
+	  
+  
+
+	  <div class="grid-item">
+	        <img src="pddd.jpg" >
+	      
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="pdde.jpg" >
+	     
+	  </div>
+		
+      <div class="grid-item">
+	        <img src="pdedede.png">
+	      
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="pvv.jpg" >
+	  </div>
+
+	  <div class="grid-item">
+	        <img src="pwd.png" >
+	  </div>
+		    </div>
+		    </div>
+  				<div class="furniture">
+				    <P class="pp" style="color: #000080;" >Crate Moulds</P>  
+				    <ul class="qq">Product Range :<br />
+
+							<br /><li class="rr">Fruit and vegetable crate</li>
+							<br /><li class="rr">Utility crates .</li>
+							<br /><li class="rr">Jumbo crates.</li>
+							<br /><li class="rr">Milk crates . </li>
+							
+							</ul>
+							</div>
+					<p class="qq">MOULDS</p>
+					</div>
+			<div id='masonry'>
+			    <div class="grid">
+			      <div class="grid-sizer"></div>
+	<div class="grid-item">
+        <img src="r1.jpg" >
+    </div>
+	
+	<div class="grid-item">
+        <img src="r2.jpg">
+    </div>
+	    </div>
+	    </div>
+
+ <p class="qq">PRODUCTS</p>
+      <div id='masonry'>
+    <div class="grid">
+      <div class="grid-sizer"></div>
+	<div class="grid-item">
+        <img src="r3.jpg" >
+     </div>
+
+     <div class="grid-item">
+        <img src="r4.jpg">
+      
+    </div>
+
+    <div class="grid-item">
+        <img src="r5.png" >
+     </div>
+     <div class="grid-item">
+        <img src="r6.jpg" >
+      
+    </div>
+    </div>
+    </div>
+
+
+			<P class="pp" style="color: #000080;" >Cabinets Moulds</P>
+
+			<p  class="qq">Any Customized requirements  with Multiples of 2 “ and 1 “ </p>
+			<p class="qq">PRODUCTS</p>
+			<div id='masonry'>
+    <div class="grid">
+      <div class="grid-sizer"></div>
+      <div class="furniture">
+			 <div class="grid-item">
+        <img src="s1.jpg" >
+     </div>
+     <div class="grid-item">
+        <img src="s2.jpg" >
+      
+    </div>
+    
+
+
+    
+    </div>
+    </div>
+    
+			<div class="plain2"></div>
+			<div class="footerPadder"></div>
+			<footer class="ftr">
+		  <p style=" font-size: 15px; text-align: center; vertical-align: middle; " >&#128241; +91-76030 46629 &#9742; 033 46012708 &#9993; plastomouldtechnologies@gmail.com &#127760; www.plastomouldtechnologies.com<br />
+ Front Block, 4th floor, 4B, 34, Ahiripukur Road, Landmark (Peter's Day School), Kolkata- 700019.(India)</p>
+		</footer>
+
+			<div></div>
+			</div>
+			</div>
+			</div>
+
+			<script>
+// init Masonry
+var $grid = $('#masonry').masonry({
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  columnWidth: '.grid-sizer'
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry();
+});  
+
+
+</script>
+
+
+		</body>
+		</html>

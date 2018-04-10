@@ -1,0 +1,320 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"tranfor",
+				"transform"
+			],
+			[
+				"top",
+				"top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"txt",
+				"text-indent"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"dec",
+				"text-decoration"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"word",
+				"word-spacing"
+			],
+			[
+				"colr",
+				"color"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"ou",
+				"ourdata"
+			],
+			[
+				"our",
+				"ourRequest"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/RiaJuneja/Desktop/any.html",
+		"/Users/RiaJuneja/Desktop/any",
+		"/Users/RiaJuneja/Desktop/Aman's/untitled folder 2/About_us.html",
+		"/Users/RiaJuneja/Desktop/Aman's/untitled folder 2/home.html",
+		"/Users/RiaJuneja/Desktop/html_practice/form.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/PAHALGUM.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/gopeshvar.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/opta.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/LONAVLA.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/KULLU.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/kufri.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/kaza.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/GULMARG.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/DARJEELING.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/chmba.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/chail.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/BINSAR.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/VISHNUPRAYAG.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/untitled.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/solan.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/Shimla.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/NARKANDA.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/Nainital.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/MUSSOORIE.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/MOUNT ABU.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/MATHERAN.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/MATHERAN!.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/DHARACHULA.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/Dehradun.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/Dalhousie.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/CHAUKHUTIA.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/bhimtal.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/ARU VALLEY.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/Palampur.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/NALAHGAD.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/mandi.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/MANALI.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/MANA.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/KAUSANI.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/Gangtok.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/almora.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/JUBBAl1.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/almora1.jpg",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/ukimath.html",
+		"/Users/RiaJuneja/Desktop/html_practice/Major Project 1/parvanoo.html",
+		"/Users/RiaJuneja/Desktop/html_practice/mandi.html",
+		"/Users/RiaJuneja/Desktop/html_practice/MAndi.html",
+		"/mandi.html",
+		"/Users/RiaJuneja/Desktop/html_practice/untitled folder/NAUKUCHITYAL.html",
+		"/Users/RiaJuneja/Desktop/html_practice/untitled folder/Triund.html",
+		"/Users/RiaJuneja/Desktop/html_practice/untitled folder/untitled.html",
+		"/Users/RiaJuneja/Downloads/masonry_layout/index.html",
+		"/System/Library/Frameworks/Kernel.framework/Versions/A/Headers/IOKit/hidsystem/IOHIKeyboardMapper.h"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"headerWrap",
+			"half",
+			"100px",
+			"narkanda (1).jpg",
+			"1Gulmarg.jpg",
+			"gulmarg.jpg",
+			"jpg",
+			"kufri1.jpg",
+			"Jubbal1.jpg",
+			"BEST PLACES TO STAY IN CHAMBA",
+			"amarkantak1.jpg",
+			"header_element",
+			"head",
+			"chamba",
+			"width:",
+			"30%",
+			"30",
+			"350px",
+			"thumbnail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
