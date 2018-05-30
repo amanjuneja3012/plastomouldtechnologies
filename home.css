@@ -163,40 +163,8 @@
 		top: -45px;
 	}
 
-	@media screen and (max-width:768px){
-		.tech{
-		font-family: regular;
-		font-size: 14px;
-		z-index: 1;
-		text-align: left;
-		position: absolute;
-		top: 460px;
-		text-shadow: 4px 4px 8px white;
-		display: inline-block;
-		left: 20px;
-		width: 90%;
-		color:#483e3e;
-		line-height:30px;
-	}
-	.tech1{
-		font-family: regular;
-		font-size: 14px;
-		z-index: 1;
-		text-align: left;
-		text-shadow: 4px 4px 8px white;
-		width: 100%;
-		top: 870px;
-		position: absolute;
-		box-sizing: border-box;
-		line-height: 30px;
-		color: #483e3e;
-		padding-left: 10%;
-		padding-right: 5%;
-		padding-top: 5%;
-		left: -18px;
-	}
-
-	}
+	
+	
 
 
 

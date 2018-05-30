@@ -1,0 +1,325 @@
+.home	{
+				width: 7%;
+				height: 13vh;
+				border: 1px;
+				display: inline-block;
+				vertical-align:middle;
+				text-align: center;
+				margin-left: auto;
+		        margin-right: auto;
+		        font-size: 30px;
+		        margin-top: 24px;
+		}
+.about_us
+		{
+		    	width: 15%;
+		    	height: 13vh;
+		    	border: 1px;
+			    display: inline-block;
+			    vertical-align:middle;
+			    font-size: 30px;
+			    text-align: center;
+			    margin-top: 24px;
+		}
+.contact_us
+		{
+				width: 13%;
+		    	height: 13vh;
+		    	border: 1px ;
+		    	display: inline-block;
+		    	vertical-align:top;
+		    	font-size: 30px;
+				margin-top: 24px;
+				text-align: center;
+		}
+
+.footer
+		{
+				height: 5vh;
+				width: 97.8%;
+				border:1px solid #efefef ;
+				display: block;
+				margin-top:px;
+				position:absolute;
+				right: 0;
+			    bottom: 0;
+			    left: 0;
+			    padding: 1rem;
+			    background-color:#efefef;
+			    text-align: center;
+			    overflow: hidden;
+			    position:;
+		}
+.footer1
+		{
+		    	height: 2.5vh;
+		    	width: 95%;
+		    	font-size: 12px;
+		}
+.footer2
+		{
+		    	height: 2.5vh;
+		    	width: 95%;
+		    	font-size: 12px;
+    	}
+
+.body   {
+		    	height: 110vh;
+				width: 100%;
+				border:1px ;
+				display:;
+				position:;
+				padding-left: 130px;
+				padding-right: 130px;
+				padding-top: 100px;
+		}
+.body_image
+		{
+		    	height: vh;
+				width: 100%;
+				border: 2px;
+		}
+
+.plain	{	
+				height: 40px;
+		}
+
+.gradient
+		{
+
+				height: 10px;
+				text-align: center;
+				color: black;
+				font-size: 25px;
+				line-height: 60px;
+				margin: 20px 0px 20px 0px;
+				text-indent: 10px;
+				font-family:Arial Black;
+		}
+
+.C2		{
+				width:100%;
+				display:block;
+		}
+.furniture
+		{
+				width:100%;
+				display:block;
+		}
+
+.plain2	{
+		       height: 40px;
+		}
+
+.welcome{
+				height: 50px;
+				background: #3385ff;
+				font-size: 20px;
+				color: white;
+				font-size: 25px;
+				line-height: 45px;
+				margin: 20px 0px 20px 0px;
+				text-indent: 10px;
+				text-align: center;	
+		}
+	
+.content{
+				height: 100%;
+				width:100%;
+				font-size: 16px;
+				
+				display: block;
+		}
+
+.bold   {
+		        font-weight: bold;
+		}
+
+.red    {
+				color: red;
+		}
+
+.pp     {
+				text-align: center;
+				font-size: 30px;
+				font-family: Impact;
+		}
+
+.qq		{
+				font-size: 20px;
+				font-family: Impact;
+		}
+
+.rr     {
+				font-size: 18px;
+				font-family: sans-serif;
+		}
+
+* 		{	
+		    	box-sizing: border-box;
+		}
+	
+.grid 	{
+		  		background: #DDD;
+		}
+
+.grid:after 
+		{
+				content: '';
+				display:inline-block !important;
+				clear: both;
+		}
+
+.grid-sizer,
+.grid-item 
+		{
+		  		width: 330px;
+		}
+
+.grid-item 
+		{
+		  		clear: both;
+		}
+
+.grid-item img 
+		{
+				display: inline-block !important;
+				width: 100%;
+		}
+		
+.content{
+				height: 100%;
+		}	
+
+#masonry{
+			    height: 100%;
+			    width: 100%;
+		}
+
+body 	{
+				font-family: Arial;
+		}
+	
+.tab 	{
+			    overflow: hidden;
+			    border: 1px solid #ccc;
+			    background-color: #f1f1f1;
+		}
+
+.tab button 
+		{
+			    background-color: inherit;
+			    float: none;
+			    border: none;
+			    outline: none;
+			    cursor: pointer;
+			    padding: 14px 70.2px;
+			    transition: 0.3s;
+			    font-size: 23px;
+		}
+.tab button:hover 
+		{
+			    background-color: #ddd;
+		}
+
+		
+.tab button.active 
+		{
+		        background-color: #ccc;
+		}
+
+.tabcontent 
+		{
+		    display:none;
+		    padding: 6px 12px;
+		  	border-top: none;
+		}
+		
+
+
+					@media only screen 
+						and (min-device-width: 320px) 
+						and (max-device-width: 568px)
+						and (-webkit-min-device-pixel-ratio: 2) 
+							{
+								.gradient
+									{
+
+										height: 10px;
+										text-align: center;
+										color: black;
+										font-size: 11px;
+										line-height: 60px;
+										margin: 20px 0px 20px 0px;
+										text-indent: 5px;
+										font-family:Arial Black;
+										white-space:nowrap;
+									}
+
+								.body
+									{
+								    	height: 110vh;
+										width: 100%;
+										border:1px ;
+										display:;
+										position:;
+										padding-left: 0px;
+										padding-right: 0px;
+										padding-top: 50px;
+									}
+					    		.pp {
+										text-align: center;
+										font-size: 18px;
+										font-family: Impact;
+										margin-top: -10px;
+									}
+								.qq {
+										font-size: 16px;
+										font-family: Impact;
+
+									}
+
+								.rr{
+										font-size: 14px;
+										font-family: sans-serif;
+
+									}
+								.grid-sizer,
+								.grid-item 
+									{
+							  			width: 120px;
+							  		}
+
+								.grid-item 
+									{
+							  			float: right;
+							  		}
+
+								.grid-item img 
+									{
+										display: block;
+										width: 100%;
+									}
+								.content
+									{
+										height: 100%;
+									}	
+								#masonry
+									{
+									    height: 100%;
+									    width: 100%;
+									}
+								.tab button 
+									{
+									    background-color: inherit;
+									    float: none;
+									    border: none;
+									    outline: none;
+									    cursor: pointer;
+									    padding: 14px 70.2px;
+									    transition: 0.3s;
+									    font-size: 23px;
+									}
+
+
+
