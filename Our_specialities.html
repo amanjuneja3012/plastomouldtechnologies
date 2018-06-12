@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href='./common.css' />
-<link rel="stylesheet" type="text/css" href="./media_iphone_5.css">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<link rel="stylesheet" type="text/css" href="Our_specialities.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href='./common.css' />
+	<link rel="stylesheet" type="text/css" href="./media_iphone_5.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="Our_specialities.css">
 </head>
-<body><div class="container">
+<body id="body"><div class="container">
 	<div class="header">
 		<div class="headerWrap">Email 
 			<a class="emails" " href="mailto:plastomouldtechnologies@gmail.com">&nbsp;&nbsp;plastomouldtechnologies@gmail.com</a><a class="emails" style=" margin-right: 600px;" " href="mailto:www.plastomouldtechnologies.com"> ;www.plastomouldtechnologies.com</a>
@@ -32,18 +32,19 @@
 			<a  style=" text-decoration: none; color: black; " href="contact_us.html">Contact Us</a>
 		</div>
 
-		<div class="dropdown">
-		<div class="icon_white"></div>
-		  	<div class="menu_icon"></div>
-			<div class="menu_icon"></div>
-			<div class="menu_icon"></div>
-
-		  <div class="dropdown-content">
-		   	<a class="display" href="/">HOME</a>
-		    <a class="display" href="Our_specialities.html">OUR SPECIALITIES</a>
-		    <a class="display" href="products.html">PRODUCTS</a>
-		    <a class="display" href="contact_us.html">CONTACT US</a>
-		  </div>
+		<div>
+			<div class="dropdown" id="headerNavIcon">
+				<div class="icon_white"></div>
+			  	<div class="menu_icon"></div>
+				<div class="menu_icon"></div>
+				<div class="menu_icon"></div>
+			</div>
+			<div class="dropdown-content" id="headerNavDropdown">
+				<a class="display" href="/">HOME</a>
+				<a class="display" href="Our_specialities.html">OUR SPECIALITIES</a>
+				<a class="display" href="products.html">PRODUCTS</a>
+				<a class="display" href="contact_us.html">CONTACT US</a>
+			</div>
 		</div>
 </div>
 		
@@ -117,6 +118,15 @@
 </footer>
 	
 </div>
-
+<script>
+	var navDD = document.getElementById('headerNavDropdown');
+	document.getElementById('headerNavIcon').addEventListener('click', function(e) {
+		e.stopPropagation();
+		navDD.style.display = (navDD.style.display=='inline-block')?'none':'inline-block';
+	});
+	document.getElementById('body').addEventListener('click', function() {
+		navDD.style.display = 'none';
+	});
+</script>
 </body>
 </html>
