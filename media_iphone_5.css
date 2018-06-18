@@ -23,6 +23,10 @@
           white-space: nowrap;
         }
 
+  .tabcontent{
+    padding: 35px 20px !important;
+  }
+
   .plastic
         {
           font-family: myFirstFont;
