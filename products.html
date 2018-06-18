@@ -2,10 +2,11 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href='./common.css' />
 	<link rel="stylesheet" type="text/css" href="./products.css">
+	<link rel="stylesheet" type="text/css" href='./common.css' />
 	<link rel="stylesheet" type="text/css" href="./media_iphone_5.css">
 	<link rel="stylesheet" type="text/css" href="./media_iphone_6.css">
+	<link rel="stylesheet" type="text/css" href="./products.css">
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<script
@@ -14,16 +15,6 @@
 	  crossorigin="anonymous"></script>
 	<script src='masonry.pkgd.min.js'></script>
 	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-	<script>
-		var navDD = document.getElementById('headerNavDropdown');
-		document.getElementById('headerNavIcon').addEventListener('click', function(e) {
-			e.stopPropagation();
-			navDD.style.display = (navDD.style.display=='inline-block')?'none':'inline-block';
-		});
-		document.getElementById('body').addEventListener('click', function() {
-			navDD.style.display = 'none';
-		});
-	</script>
 </head>
 <body id="body">
 	<div class="container">
@@ -62,11 +53,12 @@
 						<a class="display" href="contact_us.html">CONTACT US</a>
 					</div>
 				</div>
-		</div>
+			</div>
+			</div>
 		<div class="body">
 				<div class="plain"></div>
 					<div class="tab">
-					    <button class="tablinks" onclick="openCity(event, 'furniture')">FURNITURE MOULDS</button>
+					    <button id="defaultTab" class="tablinks" onclick="openCity(event, 'furniture')">FURNITURE MOULDS</button>
 					    <button class="tablinks" onclick="openCity(event, 'crate')">CRATE MOULDS</button>
 					    <button class="tablinks" onclick="openCity(event, 'cabinet')">CABINET MOULDS</button>
 					</div>
@@ -81,7 +73,7 @@
 								<br /><li class="rr">Dining table ( Rectangular as well round top with the option of using the same top with straight as well as crossed legs ) </li>
 								<br /><li class="rr">Centre Table ( Single piece , Trolley type with  bottom rake) </li>
 								<br /><li class="rr">Baby chairs ( Normal as well as premium ) </li>
-								<br /><li class="rr">Stools ( 10 “, 12 “ , 18”, 19”, 21” – Plain /premium as well as with Ratton design )</li>
+								<br /><li class="rr">Stools ( 10", 12" , 18", 19", 21" – Plain /premium as well as with Ratton design )</li>
 							</ul>
 					
 						<p class="qq">MOULDS</p>
@@ -130,7 +122,7 @@
 
 
 								      	<div class="grid-item">
-								        	<img src="p3.png" >
+								        	<img src="p3.jpg" >
 								      	</div>
 
 					  
@@ -250,7 +242,8 @@
 												<br /><li class="rr">Jumbo crates.</li>
 												<br /><li class="rr">Milk crates . </li>
 											</ul>
-									
+									<div class="grid">
+										<div class="grid-sizer"></div>
 										<div class="grid-item">
 					        				<img src="r1.jpg" >
 					    				</div>
@@ -274,6 +267,7 @@
 									    <div style=" height: 80px; " class="grid-item">
 									        <img src="r6.jpg" >
 									    </div>
+									</div>
 						</div>
 
 									
@@ -283,7 +277,7 @@
 					<div id="cabinet" class="tabcontent">
 		  					<div class="furniture">
 											<P class="pp" style="color: #000080;" >Cabinets Moulds</P>
-											<p class="rr">Any Customized requirements  with Multiples of 2 “ and 1 “ </p>
+											<p class="rr">Any Customized requirements  with Multiples of 2 " and 1 " </p>
 											<p class="qq">PRODUCTS:</p>
 												<div class="grid-item">
 							        				<img src="s1.jpg" >
@@ -294,26 +288,38 @@
 								
 							</div>
 					</div>
+				</div>
+			</div>
+		</div>
 
 <script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "inline-block";
-    evt.currentTarget.className += " active";
+	function openCity(evt, cityName) {
+	    var i, tabcontent, tablinks;
+	    tabcontent = document.getElementsByClassName("tabcontent");
+	    for (i = 0; i < tabcontent.length; i++) {
+	        tabcontent[i].style.display = "none";
+	    }
+	    tablinks = document.getElementsByClassName("tablinks");
+	    for (i = 0; i < tablinks.length; i++) {
+	        tablinks[i].className = tablinks[i].className.replace(" active", "");
+	    }
+	    document.getElementById(cityName).style.display = "inline-block";
+	    evt.currentTarget.className += " active";
 
-    $('.grid').masonry({
-  itemSelector: '.grid-item',
-  columnWidth: 200
-});
-}
+	    $('.grid').masonry({
+			itemSelector: '.grid-item',
+			columnWidth: 200,
+			horizontalOrder: true,
+			percentPosition: true,
+			columnWidth: '.grid-sizer',
+			itemSelector: '.grid-item'
+		});
+	}
+window.setTimeout(function(){
+	var el = document.getElementById('defaultTab');
+	el.click();
+	console.log('done');
+},1000);
 </script>
   
   <div class="plain2"></div>
@@ -327,18 +333,6 @@ function openCity(evt, cityName) {
 		</div>
 		</div>
 		</div>
-
-<script>
-	var $grid = $('#masonry').masonry({
-  	itemSelector: '.grid-item',
-  	percentPosition: true,
-  	columnWidth: '.grid-sizer'
-	});
-	// layout Masonry after each image loads
-	$grid.imagesLoaded().progress( function() {
-	  $grid.masonry();
-	});  
-</script>
 <script>
 	var navDD = document.getElementById('headerNavDropdown');
 	document.getElementById('headerNavIcon').addEventListener('click', function(e) {

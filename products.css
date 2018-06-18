@@ -173,7 +173,7 @@
 .grid-sizer,
 .grid-item 
 		{
-		  		width: 330px;
+		  		width: 33%;
 		}
 
 .grid-item 
@@ -233,6 +233,7 @@ body 	{
 		    display:none;
 		    padding: 6px 12px;
 		  	border-top: none;
+		  	width:100%;
 		}
 		
 
